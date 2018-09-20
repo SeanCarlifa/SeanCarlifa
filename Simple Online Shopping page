@@ -1,0 +1,138 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<script src="file:///C|/xampp/htdocs/bootstrap/js/bootstrap.min.js"></script>
+<script src="file:///C|/xampp/htdocs/bootstrap/js/jquery.js"></script>
+<script src="file:///C|/xampp/htdocs/bootstrap/main.js"></script>
+</head>
+
+<body>
+<!--Nav bar start!-->
+	<div class="navbar navbar-inverse navbar-fixed">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="" class="navbar-brand"> The Game</a>
+			</div>
+			
+		<!--List inside the nav bar!-->
+		<ul class="nav navbar-nav">
+			<li><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-phone-alt"></span>Contact</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-modal-window"></span>Products</a></li>
+			<li style="width:300px; left:10px; top:10px;"><input type="text" class="form-control" id="search"></li>
+			<li style="top:10px; left:20px; top:10px;"><input type="submit" class="btn btn-primary" id="search_btn" value="submit" placeholder="Enter Product Name"></li>
+		</ul>
+		
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+			<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user">SignIn</span></a>
+			<ul class="dropdown-menu">
+				
+			</ul>
+			
+			<li><a href="#"><span class="glyphicon glyphicon-user">SignUP</span></a>
+		</ul>
+		
+		<!--end nav bar-->
+		</div>
+	</div>
+	<p><br /></p>
+	<p><br /></p>
+	<p><br /></p>
+	<p><br /></p>
+	<p><br /></p>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-1"></div>
+		<div class="col-md-2">
+			<div class="nav nav-pills nav-stacked">
+				<li class="active"><a href="#"><h4>Categories</h4></a></li>
+				<li><a href="#">UDULT WEAR</a></li>
+				<li><a href="#">KIDZ WEAR</a></li>
+
+		</div>
+		
+		<div class="nav nav-pills nav-stacked">
+				<li class="active"><a href="#"><h4>Brand</h4></a></li>
+				<li><a href="#">PENGUIN WEAR</a></li>
+				<li><a href="#">TEAM RICHY</a></li>
+				<li><a href="#">LEOX Wear</a></li>
+
+		</div>
+		</div>
+		<div class="col-md-8">
+			<div class="panel-info">
+			<div class="panel-heading">Products</div>
+		<div class="panel-body">
+		<div class="col-md-4">
+			<div class="panel panel-info">
+			<div class="panel-heading">PENGUIN WEAR</div>
+			<div class="panel-body">
+			<img src="imgs/PenguinsWear.jpg" width="100%"  />
+			</div>
+			<div class="panel-heading">R.450.00
+				<button style="float:right;" class="btn btn-danger btn-xs">
+				PUCHASE</button>
+			</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-info">
+			<div class="panel-heading">TEAM RICHY</div>
+			<div class="panel-body">
+			<img src="imgs/Da-Star.png" width="100%"  />
+			</div>
+			<div class="panel-heading">R.300.00
+				<button style="float:right;" class="btn btn-danger btn-xs">
+				PUCHASE</button>
+			</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-info">
+			<div class="panel-heading">LEOX WEAR</div>
+			<div class="panel-body">
+			<img src="imgs/20180819_153303.png" width="100%"  />
+			</div>
+			<div class="panel-heading">R.350.00
+				<button style="float:right;" class="btn btn-danger btn-xs">
+				PUCHASE</button>
+			</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-info">
+			<div class="panel-heading">PENGUIN WEAR</div>
+			<div class="panel-body">
+			<img src="imgs/Ethel.png" width="100%"  />
+			</div>
+			<div class="panel-heading">R.450.00
+				<button style="float:right;" class="btn btn-danger btn-xs">
+				PUCHASE</button>
+			</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-info">
+			<div class="panel-heading">PENGUIN WEAR</div>
+			<div class="panel-body">
+			<img src="imgs/20180819_153417.png" width="100%"  />
+			</div>
+			<div class="panel-heading">R.450.00
+				<button style="float:right;" class="btn btn-danger btn-xs">
+				PUCHASE</button>
+			</div>
+			</div>
+		</div>
+		</div>
+		<div class="panel-footer">&copy;2018</div>
+	</div>
+	</div>
+</div>
+</body>
+</html>
